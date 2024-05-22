@@ -1,4 +1,4 @@
-nterface Shape{
+interface Shape{
 void area();
 } // end of interface
 class Rectangle implements Shape{
