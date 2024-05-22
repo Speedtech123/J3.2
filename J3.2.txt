@@ -1,6 +1,6 @@
 interface Shape{
 void area();
-} // end of interface
+}
 class Rectangle implements Shape{
 double l,b;
 Rectangle(double length, double breadth){
@@ -27,5 +27,5 @@ public class InterfaceDemo {
 rect.area();
 Triangle tri=new Triangle(10,20);
 tri.area();
- }// end of main 
-} //end of InterfaceDemo
+ }
+}
