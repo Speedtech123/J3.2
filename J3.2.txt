@@ -1,0 +1,31 @@
+nterface Shape{
+void area();
+} // end of interface
+class Rectangle implements Shape{
+double l,b;
+Rectangle(double length, double breadth){
+l=length;
+b=breadth;
+}
+public void area(){
+System.out.println("Area of Rectangle is : " + l*b);
+}
+} 
+class Triangle implements Shape{
+double b,h;
+Triangle (double base, double height){
+b= base;
+h= height;
+}
+public void area(){
+System.out.println("Area of Triangle is : " + (b*h/2));
+}
+} 
+public class InterfaceDemo {
+ public static void main(String args[]){
+ Rectangle rect=new Rectangle(10,05);
+rect.area();
+Triangle tri=new Triangle(10,20);
+tri.area();
+ }// end of main 
+} //end of InterfaceDemo
